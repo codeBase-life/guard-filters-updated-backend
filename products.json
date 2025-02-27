@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "title": "daihatsu charade",
+        "price": 1000,
+        "description": "description of daihatsu charade",
+        "part_no": "1234",
+        "oem_number": "98788",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2012,
+        "filter_type": "fuel filter",
+        "popularity": "high",
+        "image": "/frontend/assets/honda-cd-70.png",
+        "make": "daihatsu",
+        "year": "2000",
+        "key_features": [
+            {
+                "efficiency": "Captures fine contaminants for cleaner fuel",
+                "durability": "Made from premium materials for longevity.",
+                "easy_installation": "Designed for a straightforward replacement process.",
+                "engine_protection": "Maintains optimal engine health."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic",
+                "filter_efficiency": "99.9%",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "toyota ",
+        "price": 1000,
+        "description": "description of daihatsu charade",
+        "part_no": "1234",
+        "oem_number": "98788",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2012,
+        "filter_type": "cabin filter",
+        "popularity": "high",
+        "year": "2011",
+        "image": "/frontend/assets/honda civic exi.png",
+        "make": "daihatsu",
+        "key_features": [
+            {
+                "efficiency": "Captures fine contaminants for cleaner fuel",
+                "durability": "Made from premium materials for longevity.",
+                "easy_installation": "Designed for a straightforward replacement process.",
+                "engine_protection": "Maintains optimal engine health."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic",
+                "filter_efficiency": "99.9%",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "honda",
+        "price": 1000,
+        "description": "description of daihatsu charade",
+        "part_no": "1234",
+        "oem_number": "98788",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2012,
+        "year": "1999",
+        "filter_type": "oil filter",
+        "popularity": "high",
+        "make": "daihatsu",
+        "image": "/frontend/assets/daihatsu charade.png",
+        "key_features": [
+            {
+                "efficiency": "Captures fine contaminants for cleaner fuel",
+                "durability": "Made from premium materials for longevity.",
+                "easy_installation": "Designed for a straightforward replacement process.",
+                "engine_protection": "Maintains optimal engine health."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic",
+                "filter_efficiency": "99.9%",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "honda",
+        "price": 1000,
+        "description": "description of daihatsu charade",
+        "part_no": "1234",
+        "oem_number": "98788",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2012,
+        "year": "1999",
+        "filter_type": "oil filter",
+        "popularity": "high",
+        "image": "/frontend/assets/ford transit wagon (2).png",
+        "make": "daihatsu",
+        "key_features": [
+            {
+                "efficiency": "Captures fine contaminants for cleaner fuel",
+                "durability": "Made from premium materials for longevity.",
+                "easy_installation": "Designed for a straightforward replacement process.",
+                "engine_protection": "Maintains optimal engine health."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic",
+                "filter_efficiency": "99.9%",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "honda",
+        "price": 1000,
+        "description": "description of daihatsu charade",
+        "part_no": "1234",
+        "oem_number": "98788",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2012,
+        "year": "1999",
+        "filter_type": "oil filter",
+        "popularity": "high",
+        "image": "/frontend/assets/fiat 480.png",
+        "make": "daihatsu",
+        "key_features": [
+            {
+                "efficiency": "Captures fine contaminants for cleaner fuel",
+                "durability": "Made from premium materials for longevity.",
+                "easy_installation": "Designed for a straightforward replacement process.",
+                "engine_protection": "Maintains optimal engine health."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic",
+                "filter_efficiency": "99.9%",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "honda",
+        "price": 1000,
+        "description": "description of daihatsu charade",
+        "part_no": "1234",
+        "oem_number": "98788",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2012,
+        "year": "1999",
+        "filter_type": "oil filter",
+        "popularity": "high",
+        "make": "daihatsu",
+        "image": "/frontend/assets/datsun 120y.png",
+        "key_features": [
+            {
+                "efficiency": "Captures fine contaminants for cleaner fuel",
+                "durability": "Made from premium materials for longevity.",
+                "easy_installation": "Designed for a straightforward replacement process.",
+                "engine_protection": "Maintains optimal engine health."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic",
+                "filter_efficiency": "99.9%",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    }
+]
