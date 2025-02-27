@@ -12,7 +12,7 @@
         "model": 2012,
         "filter_type": "fuel filter",
         "popularity": "high",
-        "image": "/frontend/assets/honda-cd-70.png",
+        "image": "./assets/honda-cd-70.png",
         "make": "daihatsu",
         "year": "2000",
         "key_features": [
@@ -46,7 +46,7 @@
         "filter_type": "cabin filter",
         "popularity": "high",
         "year": "2011",
-        "image": "/frontend/assets/honda civic exi.png",
+        "image": "./assets/honda civic exi.png",
         "make": "daihatsu",
         "key_features": [
             {
@@ -80,7 +80,7 @@
         "filter_type": "oil filter",
         "popularity": "high",
         "make": "daihatsu",
-        "image": "/frontend/assets/daihatsu charade.png",
+        "image": "./assets/daihatsu charade.png",
         "key_features": [
             {
                 "efficiency": "Captures fine contaminants for cleaner fuel",
@@ -112,7 +112,7 @@
         "year": "1999",
         "filter_type": "oil filter",
         "popularity": "high",
-        "image": "/frontend/assets/ford transit wagon (2).png",
+        "image": "./assets/ford transit wagon (2).png",
         "make": "daihatsu",
         "key_features": [
             {
@@ -145,7 +145,7 @@
         "year": "1999",
         "filter_type": "oil filter",
         "popularity": "high",
-        "image": "/frontend/assets/fiat 480.png",
+        "image": "./assets/fiat 480.png",
         "make": "daihatsu",
         "key_features": [
             {
@@ -179,7 +179,7 @@
         "filter_type": "oil filter",
         "popularity": "high",
         "make": "daihatsu",
-        "image": "/frontend/assets/datsun 120y.png",
+        "image": "./assets/datsun 120y.png",
         "key_features": [
             {
                 "efficiency": "Captures fine contaminants for cleaner fuel",
