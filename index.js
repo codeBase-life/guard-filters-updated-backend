@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   res.send("home route");
 });
 app.get("/api/products", (req, res) => {
-  const { year, make, model, type } = req.query;
+  const { year, make, model, type, page, limit } = req.query;
   let filteredProducts = products;
   if (year) {
     filteredProducts = filteredProducts.filter((value) => value.year == year);
@@ -34,7 +34,21 @@ app.get("/api/products", (req, res) => {
     );
   }
 
-  res.json(filteredProducts);
+  const pageNum = parseInt(page) || 1;
+  const limitNum = parseInt(limit) || 3;
+  const totalProducts = filteredProducts.length;
+  const totalPages = Math.ceil(totalProducts / limitNum);
+  const startIndex = (pageNum - 1) * limitNum;
+  const endIndex = pageNum * limitNum;
+  const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
+
+  res.json({
+    totalProducts,
+    totalPages,
+    currentPage: pageNum,
+    limit: limitNum,
+    Products: paginatedProducts,
+  });
 });
 app.get("/api/products/filter_values", (req, res) => {
   const make = products.map((item) => item.make);
