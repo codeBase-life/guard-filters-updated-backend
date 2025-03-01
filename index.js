@@ -66,6 +66,7 @@ app.get("/api/products/filter_values", (req, res) => {
 
   res.json(values);
 });
+
 app.get("/api/product/:id", (req, res) => {
   const id = req.params.id;
   const product = products.find((item) => item.id == id);
