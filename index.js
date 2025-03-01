@@ -71,6 +71,7 @@ app.get("/api/product/:id", (req, res) => {
   const id = req.params.id;
   const product = products.find((item) => item.id == id);
 
+  // first function data
   const firstRandomFun = () => {
     const firstRandomNext = Math.floor(Math.random() * products.length + 1);
     let firstRandomPrev = Math.floor(Math.random() * products.length + 1);
@@ -94,11 +95,31 @@ app.get("/api/product/:id", (req, res) => {
     firstRandomNext,
     firstRandomPrev
   );
-
+  // second function data
+  const secondRandomFun = () => {
+    let secondRandomNext = Math.floor(Math.random() * products.length + 1);
+    let secondRandomPrev = Math.floor(Math.random() * products.length + 1);
+    while (secondRandomNext === secondRandomPrev) {
+      secondRandomNext = Math.floor(Math.random() * products.length);
+    }
+    return [secondRandomNext, secondRandomPrev];
+  };
+  const [secondRandomNext, secondRandomPrev] = secondRandomFun();
+  const secondRandomProducts = (first, second) => {
+    const randomFirst = products.find((item) => item.id == first);
+    const randomSecond = products.find((item) => item.id == second);
+    return [randomFirst, randomSecond];
+  };
+  const [randomFirst, randomSecond] = secondRandomProducts(
+    secondRandomNext,
+    secondRandomPrev
+  );
   res.json({
     actualProduct: product,
     topProductFirst: randomProductFirst,
     topProductSecond: randomProductSecond,
+    middleProductFirst: randomFirst,
+    middleProductSecond: randomSecond,
   });
 });
 
