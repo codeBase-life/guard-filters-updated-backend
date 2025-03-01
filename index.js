@@ -66,6 +66,40 @@ app.get("/api/products/filter_values", (req, res) => {
 
   res.json(values);
 });
+app.get("/api/product/:id", (req, res) => {
+  const id = req.params.id;
+  const product = products.find((item) => item.id == id);
+
+  const firstRandomFun = () => {
+    const firstRandomNext = Math.floor(Math.random() * products.length + 1);
+    let firstRandomPrev = Math.floor(Math.random() * products.length + 1);
+    while (firstRandomNext === firstRandomPrev) {
+      firstRandomPrev = Math.floor(Math.random() * products.length + 1);
+    }
+    return [firstRandomNext, firstRandomPrev];
+  };
+  const [firstRandomNext, firstRandomPrev] = firstRandomFun();
+
+  const firstRandomProducts = (firstRandomNext, firstRandomPrev) => {
+    const randomProductFirst = products.filter(
+      (item) => item.id == firstRandomNext
+    );
+    const randomProductSecond = products.filter(
+      (item) => item.id === firstRandomPrev
+    );
+    return [randomProductFirst, randomProductSecond];
+  };
+  const [randomProductFirst, randomProductSecond] = firstRandomProducts(
+    firstRandomNext,
+    firstRandomPrev
+  );
+
+  res.json({
+    actualProduct: product,
+    topProductFirst: randomProductFirst,
+    topProductSecond: randomProductSecond,
+  });
+});
 
 app.listen(port || 8000, () => {
   console.log("server portrunning on ", port);
