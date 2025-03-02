@@ -1,0 +1,5 @@
+{
+    "ignore": [
+        "**./recently_viewed.json"
+    ]
+}

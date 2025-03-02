@@ -13,22 +13,56 @@ const path = require("path");
 const products = require("./products.json");
 
 const recently_file = path.join(__dirname, "./recently_viewed.json");
-const read = () => {
+const read_file = () => {
   try {
+    if (!fs.existsSync(recently_file)) {
+      return [];
+    }
     const data = fs.readFileSync(recently_file, "utf-8");
+    const parse_data = JSON.parse(data);
 
-    console.log(data);
-    return JSON.parse(data);
+    parse_data.forEach((item) => {
+      console.log(item);
+    });
+    return parse_data;
   } catch (error) {
     console.error("error reading file", error);
     return [];
   }
 };
-
+const write_file = (data) => {
+  try {
+    let read_data = read_file();
+    if (!Array.isArray(read_data)) {
+      read_data = [];
+    }
+    read_data = read_data.filter((item) => item.id !== data.id);
+    read_data.unshift(data);
+    if (read_data.length > 4) {
+      read_data.pop();
+    }
+    fs.writeFileSync(
+      recently_file,
+      JSON.stringify(read_data, null, 2),
+      "utf-8"
+    );
+    console.log("data written to file successfully");
+  } catch (error) {
+    console.error("error writing to file ", error);
+  }
+};
 app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("home route");
+});
+// sending for search functionality
+app.get("/products/:search", (req, res) => {
+  const search = req.params.search;
+  const searched_items = products.filter((item) =>
+    item.title.toLowerCase().includes(search)
+  );
+  res.json(searched_items);
 });
 app.get("/api/products", (req, res) => {
   const { year, make, model, type, page, limit } = req.query;
@@ -94,7 +128,7 @@ app.get("/api/product/:id", (req, res) => {
   const id = req.params.id;
   const product = products.find((item) => item.id == id);
   const similar_products = similarProducts(product);
-
+  // write_file(product);
   // first function data
   const firstRandomFun = () => {
     const firstRandomNext = Math.floor(Math.random() * products.length + 1);
