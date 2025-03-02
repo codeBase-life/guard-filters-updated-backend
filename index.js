@@ -4,11 +4,26 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const port = process.env.PORT || 8000;
-const mongodb_uri = process.env.MONGODB_URI;
-const cloudinary_name = process.env.CLOUDINARY_CLOUD_NAME;
-const cloudinary_api_key = process.env.CLOUDINARY_API_KEY;
-const cloudinary_api_secret = process.env.CLOUDINARY_API_SECRET;
+const fs = require("fs");
+const path = require("path");
+// const mongodb_uri = process.env.MONGODB_URI;
+// const cloudinary_name = process.env.CLOUDINARY_CLOUD_NAME;
+// const cloudinary_api_key = process.env.CLOUDINARY_API_KEY;
+// const cloudinary_api_secret = process.env.CLOUDINARY_API_SECRET;
 const products = require("./products.json");
+
+const recently_file = path.join(__dirname, "./recently_viewed.json");
+const read = () => {
+  try {
+    const data = fs.readFileSync(recently_file, "utf-8");
+
+    console.log(data);
+    return JSON.parse(data);
+  } catch (error) {
+    console.error("error reading file", error);
+    return [];
+  }
+};
 
 app.use(cors());
 
@@ -67,9 +82,18 @@ app.get("/api/products/filter_values", (req, res) => {
   res.json(values);
 });
 
+const similarProducts = (product) => {
+  const similar = products.filter(
+    (item) => item.filter_type === product.filter_type
+  );
+
+  return similar.slice(0, 4);
+};
+
 app.get("/api/product/:id", (req, res) => {
   const id = req.params.id;
   const product = products.find((item) => item.id == id);
+  const similar_products = similarProducts(product);
 
   // first function data
   const firstRandomFun = () => {
@@ -120,6 +144,7 @@ app.get("/api/product/:id", (req, res) => {
     topProductSecond: randomProductSecond,
     middleProductFirst: randomFirst,
     middleProductSecond: randomSecond,
+    similar: similar_products,
   });
 });
 
