@@ -67,6 +67,7 @@ app.get("/products/:search", (req, res) => {
 app.get("/api/products", (req, res) => {
   const { year, make, model, type, page, limit } = req.query;
   let filteredProducts = products;
+
   if (year) {
     filteredProducts = filteredProducts.filter((value) => value.year == year);
     // console.log(filteredProducts);
@@ -97,6 +98,7 @@ app.get("/api/products", (req, res) => {
     currentPage: pageNum,
     limit: limitNum,
     Products: paginatedProducts,
+    filter_applied: filteredProducts,
   });
 });
 app.get("/api/products/filter_values", (req, res) => {
