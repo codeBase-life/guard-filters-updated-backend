@@ -85,7 +85,7 @@ app.get("/api/products", (req, res) => {
   }
 
   const pageNum = parseInt(page) || 1;
-  const limitNum = parseInt(limit) || 3;
+  const limitNum = parseInt(limit) || 10;
   const totalProducts = filteredProducts.length;
   const totalPages = Math.ceil(totalProducts / limitNum);
   const startIndex = (pageNum - 1) * limitNum;
