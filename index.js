@@ -208,8 +208,8 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const { LocalStorage } = require("node-localstorage");
-const localStorage = new LocalStorage("./scratch");
+// const { LocalStorage } = require("node-localstorage");
+// const localStorage = new LocalStorage("./scratch");
 const products = require("./products.json");
 
 const port = process.env.PORT || 8000;
@@ -288,60 +288,6 @@ const similarProducts = (product) => {
   );
 
   return similar.slice(0, 4);
-};
-
-// recently viewed products
-const forRecentlyViewed = (product) => {
-  const max_products = 4;
-  const expire_time = 1000 * 60 * 60;
-
-  // save recently viewed in local storage
-  const save_local = (products) => {
-    localStorage.setItem("recentlyViewed", JSON.stringify(products));
-    console.log(products);
-  };
-
-  const get_local = () => {
-    const item = localStorage.getItem("recentlyViewed");
-    if (item) {
-      try {
-        // console.log(item);
-
-        return JSON.parse(item);
-      } catch (error) {
-        console.error("Error parsing local storage data", error);
-        return [];
-      }
-    }
-    return [];
-  };
-
-  let recentlyViewed = get_local();
-
-  // add products
-  const add_products = (product) => {
-    let current_time = Date.now();
-
-    // remove expired products
-    recentlyViewed = recentlyViewed.filter(
-      (item) => current_time - item.timestamp < expire_time
-    );
-
-    // to avoid duplication
-    const index = recentlyViewed.findIndex((item) => item.id === product.id);
-    if (index !== -1) {
-      // Update timestamp to extend the expiration
-      recentlyViewed[index].timestamp = current_time;
-    } else {
-      if (recentlyViewed.length >= max_products) {
-        recentlyViewed.shift();
-      }
-      recentlyViewed.push({ ...product, timestamp: current_time });
-    }
-    save_local(recentlyViewed);
-  };
-
-  add_products(product);
 };
 
 app.get("/api/product/:id", (req, res) => {
