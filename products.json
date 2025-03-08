@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "title": "daihatsu charade",
-        "price": 1000,
-        "description": "description of daihatsu charade",
-        "part_no": "1234",
-        "oem_number": "98788",
+        "title": "Daihatsu Charade",
+        "price": 1100,
+        "description": "The Daihatsu Charade is engineered for exceptional fuel efficiency and reliable performance, built to protect your engine over time.",
+        "part_no": "A-1001",
+        "oem_number": "OEM-5001",
         "product_quality": "good",
         "brand": "allied filter",
         "availability": "in stock",
-        "model": 2012,
+        "model": 2013,
         "filter_type": "fuel filter",
         "popularity": "high",
         "image": "./assets/honda-cd-70.png",
         "make": "daihatsu",
-        "year": "2000",
+        "year": "2001",
         "key_features": [
             {
-                "efficiency": "Captures fine contaminants for cleaner fuel",
-                "durability": "Made from premium materials for longevity.",
-                "easy_installation": "Designed for a straightforward replacement process.",
-                "engine_protection": "Maintains optimal engine health."
+                "efficiency": "Optimized fuel filtration designed for the Charade.",
+                "durability": "Robust build that ensures lasting performance.",
+                "easy_installation": "Simple installation process tailored for the Charade.",
+                "engine_protection": "Enhances engine protection and longevity."
             }
         ],
         "specifications": [
             {
-                "material": "High-quality synthetic",
-                "filter_efficiency": "99.9%",
+                "material": "High-grade synthetic material ideal for the Charade",
+                "filter_efficiency": "99.9% reliable filtration",
                 "dimensions": "5 x 5 x 8 inches",
                 "weight": "1.2 lbs"
             }
@@ -34,32 +34,32 @@
     },
     {
         "id": 2,
-        "title": "toyota ",
-        "price": 1000,
-        "description": "description of daihatsu charade",
-        "part_no": "1234",
-        "oem_number": "98788",
+        "title": "Toyota Elite",
+        "price": 1200,
+        "description": "Toyota Elite delivers refined performance and exceptional durability, ensuring smooth engine operation and reliable protection.",
+        "part_no": "A-1002",
+        "oem_number": "OEM-5002",
         "product_quality": "good",
-        "brand": "allied filter",
+        "brand": "super gac filter",
         "availability": "in stock",
-        "model": 2012,
+        "model": 2014,
         "filter_type": "cabin filter",
         "popularity": "high",
-        "year": "2011",
         "image": "./assets/honda civic exi.png",
-        "make": "daihatsu",
+        "make": "toyota",
+        "year": "2012",
         "key_features": [
             {
-                "efficiency": "Captures fine contaminants for cleaner fuel",
-                "durability": "Made from premium materials for longevity.",
-                "easy_installation": "Designed for a straightforward replacement process.",
-                "engine_protection": "Maintains optimal engine health."
+                "efficiency": "Enhanced cabin air filtration for the Elite.",
+                "durability": "Engineered with long-lasting components.",
+                "easy_installation": "Designed for fast and hassle-free setup.",
+                "engine_protection": "Contributes to sustained engine and cabin system health."
             }
         ],
         "specifications": [
             {
-                "material": "High-quality synthetic",
-                "filter_efficiency": "99.9%",
+                "material": "Premium synthetic material crafted for Toyota Elite",
+                "filter_efficiency": "99.9% effective filtration",
                 "dimensions": "5 x 5 x 8 inches",
                 "weight": "1.2 lbs"
             }
@@ -67,32 +67,32 @@
     },
     {
         "id": 3,
-        "title": "honda",
-        "price": 1000,
-        "description": "description of daihatsu charade",
-        "part_no": "1234",
-        "oem_number": "98788",
+        "title": "Honda Precision",
+        "price": 1300,
+        "description": "Honda Precision is built for exacting performance with superior filtration that protects your engine and maximizes efficiency.",
+        "part_no": "A-1003",
+        "oem_number": "OEM-5003",
         "product_quality": "good",
         "brand": "allied filter",
         "availability": "in stock",
-        "model": 2012,
-        "year": "1999",
+        "model": 2015,
         "filter_type": "oil filter",
         "popularity": "high",
-        "make": "daihatsu",
         "image": "./assets/daihatsu charade.png",
+        "make": "honda",
+        "year": "2000",
         "key_features": [
             {
-                "efficiency": "Captures fine contaminants for cleaner fuel",
-                "durability": "Made from premium materials for longevity.",
-                "easy_installation": "Designed for a straightforward replacement process.",
-                "engine_protection": "Maintains optimal engine health."
+                "efficiency": "Precision-tuned oil filtration for Honda systems.",
+                "durability": "Built to last under demanding conditions.",
+                "easy_installation": "Streamlined design for quick installation.",
+                "engine_protection": "Optimizes engine life and performance."
             }
         ],
         "specifications": [
             {
-                "material": "High-quality synthetic",
-                "filter_efficiency": "99.9%",
+                "material": "Advanced synthetic material for Honda Precision",
+                "filter_efficiency": "99.9% oil purity",
                 "dimensions": "5 x 5 x 8 inches",
                 "weight": "1.2 lbs"
             }
@@ -100,32 +100,32 @@
     },
     {
         "id": 4,
-        "title": "honda",
-        "price": 1000,
-        "description": "description of daihatsu charade",
-        "part_no": "1234",
-        "oem_number": "98788",
+        "title": "Ford Transit",
+        "price": 1400,
+        "description": "Ford Transit offers robust filtering technology that ensures clean oil circulation and optimal engine performance in demanding transit conditions.",
+        "part_no": "A-1004",
+        "oem_number": "OEM-5004",
         "product_quality": "good",
-        "brand": "allied filter",
+        "brand": "super gac filter",
         "availability": "in stock",
-        "model": 2012,
-        "year": "1999",
+        "model": 2016,
         "filter_type": "oil filter",
         "popularity": "high",
         "image": "./assets/ford transit wagon (2).png",
-        "make": "daihatsu",
+        "make": "ford",
+        "year": "2002",
         "key_features": [
             {
-                "efficiency": "Captures fine contaminants for cleaner fuel",
-                "durability": "Made from premium materials for longevity.",
-                "easy_installation": "Designed for a straightforward replacement process.",
-                "engine_protection": "Maintains optimal engine health."
+                "efficiency": "High-efficiency oil filtering for Ford engines.",
+                "durability": "Built to withstand rigorous transit operations.",
+                "easy_installation": "Designed for quick integration in Ford systems.",
+                "engine_protection": "Improves overall engine protection and performance."
             }
         ],
         "specifications": [
             {
-                "material": "High-quality synthetic",
-                "filter_efficiency": "99.9%",
+                "material": "Durable synthetic material suitable for the Transit",
+                "filter_efficiency": "99.9% effective oil filtering",
                 "dimensions": "5 x 5 x 8 inches",
                 "weight": "1.2 lbs"
             }
@@ -133,32 +133,32 @@
     },
     {
         "id": 5,
-        "title": "honda",
-        "price": 1000,
-        "description": "description of daihatsu charade",
-        "part_no": "1234",
-        "oem_number": "98788",
+        "title": "Fiat 480 Series",
+        "price": 1500,
+        "description": "Fiat 480 Series is designed to deliver outstanding performance with precise filtration, ensuring that every drive is smooth and engine-friendly.",
+        "part_no": "A-1005",
+        "oem_number": "OEM-5005",
         "product_quality": "good",
         "brand": "allied filter",
         "availability": "in stock",
-        "model": 2012,
-        "year": "1999",
+        "model": 2017,
         "filter_type": "oil filter",
         "popularity": "high",
         "image": "./assets/fiat 480.png",
-        "make": "daihatsu",
+        "make": "fiat",
+        "year": "2003",
         "key_features": [
             {
-                "efficiency": "Captures fine contaminants for cleaner fuel",
-                "durability": "Made from premium materials for longevity.",
-                "easy_installation": "Designed for a straightforward replacement process.",
-                "engine_protection": "Maintains optimal engine health."
+                "efficiency": "Tailored oil filtration for Fiat 480 Series.",
+                "durability": "Constructed to provide long-term reliability.",
+                "easy_installation": "User-friendly installation for Fiat systems.",
+                "engine_protection": "Keeps the engine running smoothly and efficiently."
             }
         ],
         "specifications": [
             {
-                "material": "High-quality synthetic",
-                "filter_efficiency": "99.9%",
+                "material": "Engineered synthetic material for Fiat 480 Series",
+                "filter_efficiency": "99.9% efficient oil filtration",
                 "dimensions": "5 x 5 x 8 inches",
                 "weight": "1.2 lbs"
             }
@@ -166,32 +166,494 @@
     },
     {
         "id": 6,
-        "title": "honda",
-        "price": 1000,
-        "description": "description of daihatsu charade",
-        "part_no": "1234",
-        "oem_number": "98788",
+        "title": "Datsun 120Y Series",
+        "price": 1600,
+        "description": "Datsun 120Y Series is crafted for performance and durability, delivering superior oil filtration to keep engines operating at peak efficiency.",
+        "part_no": "A-1006",
+        "oem_number": "OEM-5006",
         "product_quality": "good",
-        "brand": "allied filter",
+        "brand": "super gac filter",
         "availability": "in stock",
-        "model": 2012,
-        "year": "1999",
+        "model": 2018,
         "filter_type": "oil filter",
         "popularity": "high",
-        "make": "daihatsu",
         "image": "./assets/datsun 120y.png",
+        "make": "datsun",
+        "year": "2004",
         "key_features": [
             {
-                "efficiency": "Captures fine contaminants for cleaner fuel",
-                "durability": "Made from premium materials for longevity.",
-                "easy_installation": "Designed for a straightforward replacement process.",
-                "engine_protection": "Maintains optimal engine health."
+                "efficiency": "Specifically optimized for Datsun engine filtration.",
+                "durability": "Built tough to handle continuous use.",
+                "easy_installation": "Simple and quick to install on Datsun vehicles.",
+                "engine_protection": "Ensures maximum engine longevity."
             }
         ],
         "specifications": [
             {
-                "material": "High-quality synthetic",
-                "filter_efficiency": "99.9%",
+                "material": "High-performance synthetic tailored for Datsun 120Y Series",
+                "filter_efficiency": "99.9% oil filtration efficiency",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Mazda CX-5",
+        "price": 1700,
+        "description": "The Mazda CX-5 filter is designed to complement the CX-5’s dynamic performance by providing advanced fuel filtration and robust engine protection.",
+        "part_no": "A-1007",
+        "oem_number": "OEM-5007",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2019,
+        "filter_type": "fuel filter",
+        "popularity": "high",
+        "image": "./assets/product-1.jpg",
+        "make": "mazda",
+        "year": "2005",
+        "key_features": [
+            {
+                "efficiency": "Optimized fuel filtering designed for the CX-5.",
+                "durability": "Engineered to endure the demands of Mazda engines.",
+                "easy_installation": "Seamless integration with Mazda CX-5 systems.",
+                "engine_protection": "Provides superior engine safeguarding."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Premium synthetic material ideal for Mazda CX-5",
+                "filter_efficiency": "99.9% fuel filtration",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Nissan Altima",
+        "price": 1800,
+        "description": "Nissan Altima’s filter is crafted to maintain a clean cabin environment and efficient engine performance, ensuring every drive is smooth and safe.",
+        "part_no": "A-1008",
+        "oem_number": "OEM-5008",
+        "product_quality": "good",
+        "brand": "super gac filter",
+        "availability": "in stock",
+        "model": 2020,
+        "filter_type": "cabin filter",
+        "popularity": "high",
+        "image": "./assets/product-2.jpg",
+        "make": "nissan",
+        "year": "2006",
+        "key_features": [
+            {
+                "efficiency": "Tailored cabin air filtration for the Altima.",
+                "durability": "Durable design for prolonged use.",
+                "easy_installation": "Easy to install with Nissan systems.",
+                "engine_protection": "Supports overall vehicle performance."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Advanced synthetic material for Nissan Altima",
+                "filter_efficiency": "99.9% effective cabin filtration",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Chevrolet Malibu",
+        "price": 1900,
+        "description": "Chevrolet Malibu filter offers high-performance oil filtration that is integral to maintaining the smooth running and longevity of your Malibu’s engine.",
+        "part_no": "A-1009",
+        "oem_number": "OEM-5009",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2021,
+        "filter_type": "oil filter",
+        "popularity": "high",
+        "image": "./assets/product-3.jpg",
+        "make": "chevrolet",
+        "year": "2007",
+        "key_features": [
+            {
+                "efficiency": "Engineered oil filtration specifically for Malibu engines.",
+                "durability": "Constructed for long-lasting reliability.",
+                "easy_installation": "Quick installation designed for Chevrolet vehicles.",
+                "engine_protection": "Optimizes engine efficiency and life."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Durable synthetic material for Chevrolet Malibu",
+                "filter_efficiency": "99.9% oil purity",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Hyundai Sonata",
+        "price": 2000,
+        "description": "Hyundai Sonata filter is crafted to support the Sonata’s refined engineering with top-tier fuel filtration and easy installation for reliable performance.",
+        "part_no": "A-1010",
+        "oem_number": "OEM-5010",
+        "product_quality": "good",
+        "brand": "super gac filter",
+        "availability": "in stock",
+        "model": 2022,
+        "filter_type": "fuel filter",
+        "popularity": "high",
+        "image": "./assets/product-4.jpg",
+        "make": "hyundai",
+        "year": "2008",
+        "key_features": [
+            {
+                "efficiency": "Optimized fuel filtering specifically for the Sonata.",
+                "durability": "Engineered to last under Hyundai standards.",
+                "easy_installation": "Effortless installation to match Sonata design.",
+                "engine_protection": "Maintains high engine performance and protection."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic material for Hyundai Sonata",
+                "filter_efficiency": "99.9% fuel filtering",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Kia Sorento",
+        "price": 2100,
+        "description": "The Kia Sorento filter is built to deliver excellent cabin air quality and robust filtration, ensuring that every journey in the Sorento is smooth and protected.",
+        "part_no": "A-1011",
+        "oem_number": "OEM-5011",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2023,
+        "filter_type": "cabin filter",
+        "popularity": "high",
+        "image": "./assets/product-5.jpg",
+        "make": "kia",
+        "year": "2009",
+        "key_features": [
+            {
+                "efficiency": "Custom cabin filtration optimized for the Sorento.",
+                "durability": "Built to endure long-term use in diverse conditions.",
+                "easy_installation": "Designed for a seamless fit in Kia systems.",
+                "engine_protection": "Supports overall vehicle system performance."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Engineered synthetic material for Kia Sorento",
+                "filter_efficiency": "99.9% cabin filtration",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Subaru Forester",
+        "price": 2200,
+        "description": "Subaru Forester filter is designed for durability and optimal oil flow, ensuring that your Forester runs smoothly even in the toughest conditions.",
+        "part_no": "A-1012",
+        "oem_number": "OEM-5012",
+        "product_quality": "good",
+        "brand": "super gac filter",
+        "availability": "in stock",
+        "model": 2024,
+        "filter_type": "oil filter",
+        "popularity": "high",
+        "image": "./assets/product-6.jpg",
+        "make": "subaru",
+        "year": "2010",
+        "key_features": [
+            {
+                "efficiency": "Precisely engineered oil filtration for the Forester.",
+                "durability": "Built with robust materials for long-term use.",
+                "easy_installation": "Simple setup tailored for Subaru vehicles.",
+                "engine_protection": "Ensures consistent engine performance."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-grade synthetic material for Subaru Forester",
+                "filter_efficiency": "99.9% oil filtration efficiency",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Volkswagen Passat",
+        "price": 2300,
+        "description": "Volkswagen Passat filter is built to provide excellent fuel filtration and durability, enhancing the overall performance of your Passat.",
+        "part_no": "A-1013",
+        "oem_number": "OEM-5013",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2025,
+        "filter_type": "fuel filter",
+        "popularity": "high",
+        "image": "./assets/product-7.jpg",
+        "make": "volkswagen",
+        "year": "2011",
+        "key_features": [
+            {
+                "efficiency": "Tailored fuel filtering system for the Passat.",
+                "durability": "Constructed to meet high-performance standards.",
+                "easy_installation": "Fits seamlessly into Volkswagen designs.",
+                "engine_protection": "Provides superior engine safeguarding."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Premium synthetic material for Volkswagen Passat",
+                "filter_efficiency": "99.9% fuel efficiency",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "BMW 320i",
+        "price": 2400,
+        "description": "BMW 320i filter is engineered to deliver premium oil filtration and durability, supporting the high-performance needs of BMW engines.",
+        "part_no": "A-1014",
+        "oem_number": "OEM-5014",
+        "product_quality": "good",
+        "brand": "super gac filter",
+        "availability": "in stock",
+        "model": 2026,
+        "filter_type": "cabin filter",
+        "popularity": "high",
+        "image": "./assets/product-8.jpg",
+        "make": "bmw",
+        "year": "2012",
+        "key_features": [
+            {
+                "efficiency": "High-efficiency cabin filtration tailored for BMW 320i.",
+                "durability": "Built with materials that guarantee long-lasting use.",
+                "easy_installation": "Effortlessly integrates with BMW systems.",
+                "engine_protection": "Supports overall vehicle performance."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Advanced synthetic material for BMW 320i",
+                "filter_efficiency": "99.9% effective cabin filtration",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Audi A4",
+        "price": 2500,
+        "description": "Audi A4 filter is designed for precision and high-performance oil filtration, ensuring that your Audi engine stays protected and runs smoothly.",
+        "part_no": "A-1015",
+        "oem_number": "OEM-5015",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2027,
+        "filter_type": "oil filter",
+        "popularity": "high",
+        "image": "./assets/product-9.jpg",
+        "make": "audi",
+        "year": "2013",
+        "key_features": [
+            {
+                "efficiency": "Optimized oil filtration engineered for the A4.",
+                "durability": "Constructed to endure high-performance demands.",
+                "easy_installation": "Designed for a smooth and secure fit.",
+                "engine_protection": "Maximizes engine health and performance."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Superior synthetic material for Audi A4",
+                "filter_efficiency": "99.9% oil purity",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Mercedes C300",
+        "price": 2600,
+        "description": "Mercedes C300 filter offers premium fuel filtration designed to match the refined engineering of Mercedes, ensuring efficient and reliable engine performance.",
+        "part_no": "A-1016",
+        "oem_number": "OEM-5016",
+        "product_quality": "good",
+        "brand": "super gac filter",
+        "availability": "in stock",
+        "model": 2028,
+        "filter_type": "fuel filter",
+        "popularity": "high",
+        "image": "./assets/product-10.jpg",
+        "make": "mercedes",
+        "year": "2014",
+        "key_features": [
+            {
+                "efficiency": "Tailored fuel filtration for Mercedes C300.",
+                "durability": "Built to meet the luxury performance standards of Mercedes.",
+                "easy_installation": "Engineered for seamless integration.",
+                "engine_protection": "Optimizes engine efficiency and longevity."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Premium synthetic material for Mercedes C300",
+                "filter_efficiency": "99.9% fuel filtering",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Lexus RX350",
+        "price": 2700,
+        "description": "Lexus RX350 filter is built for high-performance cabin filtration, delivering pristine air quality and supporting the luxurious engineering of Lexus vehicles.",
+        "part_no": "A-1017",
+        "oem_number": "OEM-5017",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2029,
+        "filter_type": "cabin filter",
+        "popularity": "high",
+        "image": "./assets/product-11.jpg",
+        "make": "lexus",
+        "year": "2015",
+        "key_features": [
+            {
+                "efficiency": "High-performance cabin filtration customized for RX350.",
+                "durability": "Designed to withstand long-term use in luxury models.",
+                "easy_installation": "Easy to install with Lexus precision.",
+                "engine_protection": "Supports overall vehicle comfort and performance."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic material for Lexus RX350",
+                "filter_efficiency": "99.9% cabin air filtration",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Infiniti Q50",
+        "price": 2800,
+        "description": "Infiniti Q50 filter is crafted for precision oil filtration, ensuring that Infiniti engines operate at their peak with superior protection and reliability.",
+        "part_no": "A-1018",
+        "oem_number": "OEM-5018",
+        "product_quality": "good",
+        "brand": "super gac filter",
+        "availability": "in stock",
+        "model": 2030,
+        "filter_type": "oil filter",
+        "popularity": "high",
+        "image": "./assets/product-12.jpg",
+        "make": "infiniti",
+        "year": "2016",
+        "key_features": [
+            {
+                "efficiency": "Precision oil filtration optimized for the Q50.",
+                "durability": "Constructed for high performance over time.",
+                "easy_installation": "Streamlined design for Infiniti systems.",
+                "engine_protection": "Provides excellent engine safeguarding."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Advanced synthetic material for Infiniti Q50",
+                "filter_efficiency": "99.9% oil purity",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Acura TLX",
+        "price": 2900,
+        "description": "Acura TLX filter delivers superior fuel filtration designed to maintain engine performance and efficiency, making it a perfect match for Acura’s innovative engineering.",
+        "part_no": "A-1019",
+        "oem_number": "OEM-5019",
+        "product_quality": "good",
+        "brand": "allied filter",
+        "availability": "in stock",
+        "model": 2031,
+        "filter_type": "fuel filter",
+        "popularity": "high",
+        "image": "./assets/product-13.jpg",
+        "make": "acura",
+        "year": "2017",
+        "key_features": [
+            {
+                "efficiency": "Engineered fuel filtration for Acura TLX.",
+                "durability": "Built with high-performance materials.",
+                "easy_installation": "Designed for a secure, quick setup.",
+                "engine_protection": "Ensures optimal engine protection and efficiency."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "Premium synthetic material for Acura TLX",
+                "filter_efficiency": "99.9% fuel filtering",
+                "dimensions": "5 x 5 x 8 inches",
+                "weight": "1.2 lbs"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Volvo S60",
+        "price": 3000,
+        "description": "Volvo S60 filter is designed to provide top-tier cabin filtration, ensuring that the S60 delivers clean air and sustained engine performance for a comfortable drive.",
+        "part_no": "A-1020",
+        "oem_number": "OEM-5020",
+        "product_quality": "good",
+        "brand": "super gac filter",
+        "availability": "in stock",
+        "model": 2032,
+        "filter_type": "cabin filter",
+        "popularity": "high",
+        "image": "./assets/product-14.jpg",
+        "make": "volvo",
+        "year": "2018",
+        "key_features": [
+            {
+                "efficiency": "Optimized cabin air filtration for the S60.",
+                "durability": "Constructed for prolonged, reliable performance.",
+                "easy_installation": "Fits Volvo systems for quick setup.",
+                "engine_protection": "Supports both comfort and engine longevity."
+            }
+        ],
+        "specifications": [
+            {
+                "material": "High-quality synthetic material for Volvo S60",
+                "filter_efficiency": "99.9% effective cabin filtering",
                 "dimensions": "5 x 5 x 8 inches",
                 "weight": "1.2 lbs"
             }
