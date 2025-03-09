@@ -118,7 +118,7 @@ app.get("/api/product/:id", (req, res) => {
     firstRandomPrev
   );
 
-  // second function data
+  // second function
   const secondRandomFun = () => {
     let secondRandomNext = Math.floor(Math.random() * products.length + 1);
     let secondRandomPrev = Math.floor(Math.random() * products.length + 1);
