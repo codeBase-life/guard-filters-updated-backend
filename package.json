@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "npx vercel --prod"
   },
   "author": "malik rasheed",
   "license": "ISC",
@@ -19,5 +20,8 @@
     "node-localstorage": "^3.0.5",
     "nodemon": "^3.1.9",
     "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^41.3.2"
   }
 }
