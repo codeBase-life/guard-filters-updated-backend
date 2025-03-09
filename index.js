@@ -6,9 +6,8 @@ const cors = require("cors");
 
 const products = require("./products.json");
 
-const port = process.env.PORT || 8000;
-
 app.use(cors());
+const port = process.env.PORT || 8000;
 
 app.get("/", (req, res) => {
   res.send("home route");
